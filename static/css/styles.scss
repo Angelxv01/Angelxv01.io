@@ -6,11 +6,11 @@
 body {
     font-family: 'Nunito';
     flex-direction: column;
-    overflow: hidden;
+    overflow: unset;
 }
 main {
     margin-bottom: 15px;
-    height: 70vmin;
+    height: 66vmin;
 }
 h1, h2, h3 {
     font-weight: bold;
