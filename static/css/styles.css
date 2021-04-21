@@ -10857,7 +10857,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 footer {
-  position: relative;
+  position: absolute;
   bottom: 0;
 }
 footer p {
@@ -10873,16 +10873,11 @@ footer p:hover {
 }
 
 @media (max-width: 576px) {
+  body {
+    text-align: center;
+  }
+
   p {
-    text-align: center;
     line-height: 30px;
-  }
-
-  .hero {
-    text-align: center;
-  }
-
-  h1, .h1, h2, .h2, h3, .h3 {
-    text-align: center;
   }
 }/*# sourceMappingURL=styles.css.map */
