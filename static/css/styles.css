@@ -10834,13 +10834,13 @@ textarea.form-control-lg {
 
 body {
   font-family: "Nunito";
-  display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 main {
   margin-bottom: 15px;
-  flex: 1;
+  height: 70vmin;
 }
 
 h1, .h1, h2, .h2, h3, .h3 {
@@ -10852,7 +10852,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 .img {
-  width: 100%;
+  width: 95%;
   height: auto;
 }
 
