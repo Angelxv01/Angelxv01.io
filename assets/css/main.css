@@ -1,10 +1,14 @@
 @import "./reset.css";
 @import "./utils.css";
 @import "./variables.css";
+@import "./typography.css";
+@import "./colors.css";
 
 body {
-  font-family: var(--ff-primary);
+  font-family: var(--ff-sans);
   font-size: var(--fs-400);
   line-height: 1.5;
+  font-weight: 400;
+  background: hsl(var(--clr-light));
+  letter-spacing: -0.035em;
 }
-
