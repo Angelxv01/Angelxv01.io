@@ -22,3 +22,6 @@
 .fs-700 {
   font-size: var(--fs-700);
 }
+.bold {
+  font-weight: bold;
+}

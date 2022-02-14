@@ -5,9 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/main.css" />
+
+    <style>
+      .container {
+        min-width: 80rem;
+        padding-inline: 2rem;
+        margin-inline: auto;
+      }
+    </style>
+
     <title>XV - Design System</title>
   </head>
   <body>
-    <h1 class="fs-500 txt-dark uppercase">Design System</h1>
+    <div class="container">
+      <header>
+        <h1 class="fs-500 uppercase">Design System</h1>
+      </header>
+      <main class="grid" style="--grid-gap: 5rem">
+        <!-- Colors -->
+        <section id="colors">
+          <h2 class="fs-500">Color</h2>
+          <div class="flex">
+            <div
+              class="uppercase bg-whit bold fs-400"
+              style="padding: 3rem; border: hsl(var(--clr-dark)) 1px solid"
+            >
+              White
+            </div>
+            <div
+              class="uppercase bg-light bold fs-400"
+              style="padding: 3rem; border: hsl(var(--clr-dark)) 1px solid"
+            >
+              Light
+            </div>
+            <div
+              class="uppercase bg-dark txt-white bold fs-400"
+              style="padding: 3rem"
+            >
+              Dark
+            </div>
+            <div
+              class="uppercase bg-accent txt-white bold fs-400"
+              style="padding: 3rem"
+            >
+              Accent
+            </div>
+          </div>
+        </section>
+
+        <!-- Typography -->
+        <section id="typography">
+          <h2 class="fs-500">Typography</h2>
+          <div class="flex">
+            <div class="flow" style="flex: 1">
+              <p class="ff-serif fs-700">Heading 1</p>
+              <p class="ff-serif fs-600 uppercase bold">Heading 2</p>
+              <p class="ff-sans fs-500 bold">Heading 3</p>
+            </div>
+            <div style="flex: 1">
+              Donec quis sem in est ultrices accumsan. Suspendisse vehicula
+              consequat volutpat. Ut at rhoncus lacus, eu ullamcorper urna.
+              Donec nec consequat ipsum. Fusce nunc nisl, facilisis vel eros
+              nec, convallis cursus enim. Etiam hendrerit felis quis nisi
+              tincidunt pulvinar. Aliquam ultricies urna congue, pulvinar nisl
+              in, sollicitudin enim. Nunc tincidunt nisi a eros dictum, quis
+              posuere magna tincidunt. Etiam congue neque id molestie lobortis.
+              Donec nec arcu vel turpis vehicula porta. Aliquam consectetur
+              ornare nulla. Donec vitae odio eu ex ultricies consectetur. Sed
+              tempus iaculis ipsum, quis commodo est scelerisque ut.
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
