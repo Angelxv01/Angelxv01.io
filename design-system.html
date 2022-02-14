@@ -8,7 +8,7 @@
 
     <style>
       .container {
-        min-width: 80rem;
+        max-width: 80rem;
         padding-inline: 2rem;
         margin-inline: auto;
       }
@@ -23,11 +23,11 @@
       </header>
       <main class="grid" style="--grid-gap: 5rem">
         <!-- Colors -->
-        <section id="colors">
+        <section class="colors">
           <h2 class="fs-500">Color</h2>
           <div class="flex">
             <div
-              class="uppercase bg-whit bold fs-400"
+              class="uppercase bg-white bold fs-400"
               style="padding: 3rem; border: hsl(var(--clr-dark)) 1px solid"
             >
               White
@@ -54,9 +54,9 @@
         </section>
 
         <!-- Typography -->
-        <section id="typography">
+        <section class="typography">
           <h2 class="fs-500">Typography</h2>
-          <div class="flex">
+          <div class="flex" style="align-items: end">
             <div class="flow" style="flex: 1">
               <p class="ff-serif fs-700">Heading 1</p>
               <p class="ff-serif fs-600 uppercase bold">Heading 2</p>
@@ -75,6 +75,13 @@
               tempus iaculis ipsum, quis commodo est scelerisque ut.
             </div>
           </div>
+        </section>
+
+        <!-- Buttons -->
+        <section class="buttons">
+          <h2 class="fs-500">Buttons</h2>
+          <button class="btn btn-primary">Click here!</button>
+          <button class="btn btn-secondary">Click here!</button>
         </section>
       </main>
     </div>

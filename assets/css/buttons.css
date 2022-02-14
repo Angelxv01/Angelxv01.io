@@ -1,0 +1,29 @@
+.btn {
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background: 0;
+  transition: all ease-in-out 350ms;
+  border-radius: 0.15em;
+  padding: 0.5em 1em;
+  font-weight: bold;
+}
+
+.btn-primary {
+  border: 1px solid hsl(var(--clr-accent));
+  background-color: hsl(var(--clr-accent));
+  color: hsl(var(--clr-white));
+}
+.btn-primary:hover {
+  color: hsl(var(--clr-accent));
+  background-color: hsl(var(--clr-accent) / 0.1);
+}
+
+.btn-secondary {
+  border: 1px solid hsl(var(--clr-dark) / 0.2);
+  background-color: hsl(var(--clr-light));
+  color: hsl(var(--clr-dark) / 0.8);
+}
+.btn-secondary:hover {
+  border: 1px solid hsl(var(--clr-accent));
+}
