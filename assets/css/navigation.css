@@ -1,0 +1,22 @@
+.navigation {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 3rem;
+}
+
+.navigation li {
+  list-style-type: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: hsl(var(--clr-dark));
+  padding: 0 1rem;
+  border-left: 3px solid transparent;
+}
+
+.navigation a:hover {
+  color: hsl(var(--clr-accent));
+  border-color: hsl(var(--clr-accent));
+}

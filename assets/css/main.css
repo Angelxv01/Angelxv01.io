@@ -4,6 +4,7 @@
 @import "./typography.css";
 @import "./colors.css";
 @import "./buttons.css";
+@import "./navigation.css";
 
 body {
   font-family: var(--ff-sans);
