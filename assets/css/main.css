@@ -6,6 +6,10 @@
 @import "./buttons.css";
 @import "./navigation.css";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--ff-sans);
   font-size: var(--fs-400);
