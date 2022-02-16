@@ -21,6 +21,9 @@ body {
   grid-template-rows: min-content 1fr;
 
   background-color: hsl(var(--clr-light));
+  /* background-image: url("../img/background-image.jpg");
+  background-size: cover;
+  background-position: bottom; */
   color: hsl(var(--clr-dark));
   min-height: 100vh;
   overflow-x: hidden;
