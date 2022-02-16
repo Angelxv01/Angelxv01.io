@@ -10,7 +10,7 @@
     <title>Angel's Portfolio</title>
   </head>
   <body>
-    <header>
+    <header class="primary-header flex">
       <p class="fs-500">XV</p>
       <nav>
         <ul class="navigation">
@@ -22,18 +22,44 @@
     </header>
 
     <main>
-      <h1 class="ff-serif fs-700">
-        <span class="fs-500 ff-cursive block">Hi,</span>
-        I'm Angel,
-        <span class="fs-500 ff-sans block"> self-taught programmer </span>
-        <span class="fs-500 ff-sans block"> & </span>
-        <span class="fs-500 ff-sans block"> web-designer </span>
-      </h1>
+      <div class="fs-500">
+        <p>Hi,</p>
+        <h1 class="ff-serif fs-700">I'm Angel</h1>
+        <p>self-taught programmer</p>
+        <p>&</p>
+        <p>web-designer</p>
+      </div>
 
-      <div class="grid-container">
-        <img src="./assets/img/thumbnails/404-not-found.png" alt="" />
-        <img src="./assets/img/thumbnails/my-team-page.png" alt="" />
-        <img src="./assets/img/thumbnails/recipe-blog.png" alt="" />
+      <div class="">
+        <article class="project grid">
+          <div class="labels flex">
+            <span class="label">HTML</span>
+            <span class="label">CSS</span>
+          </div>
+          <div class="project__image">
+            <img src="./assets/img/thumbnails/404-not-found.png" alt="" />
+          </div>
+          <div class="project__description">
+            <header>
+              <h2 class="ff-serif fs-600 uppercase bold">404 Not found Page</h2>
+            </header>
+            <div
+              class="project__description-body flow"
+              style="--flow-gap: 0.5rem"
+            >
+              <p>
+                This is a simple responsive webpage displaying an image and back
+                to content call-to-action.
+              </p>
+              <p>
+                It was a simple web page but after having some CSS advices I
+                started to over-engineer and make it really complicated.
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- <img src="./assets/img/thumbnails/my-team-page.png" alt="" />
+        <img src="./assets/img/thumbnails/recipe-blog.png" alt="" /> -->
       </div>
     </main>
   </body>

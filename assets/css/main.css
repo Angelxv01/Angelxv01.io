@@ -27,4 +27,31 @@ body {
   color: hsl(var(--clr-dark));
   min-height: 100vh;
   overflow-x: hidden;
+
+  margin: 0.125rem 0.25rem;
+  padding: 0.125rem 0.25rem;
+}
+
+.primary-header {
+  justify-content: space-between;
+}
+
+.project header {
+  text-align: center;
+}
+
+@media (min-width: 45rem) {
+  .project {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+
+  .project header {
+    text-align: left;
+  }
+
+  .project__image {
+    max-width: 60%;
+  }
 }
