@@ -6,23 +6,24 @@
   border-radius: 0.15em;
   padding: 0.5em 1em;
   font-weight: bold;
+  transition: all 250ms ease-in-out;
 }
 
 .btn-primary {
-  border: 1px solid hsl(var(--clr-accent));
+  border: 2px solid hsl(var(--clr-accent));
   background-color: hsl(var(--clr-accent));
   color: hsl(var(--clr-white));
 }
 .btn-primary:hover {
   color: hsl(var(--clr-accent));
-  background-color: hsl(var(--clr-accent) / 0.1);
+  background-color: hsl(var(--clr-light));
 }
 
 .btn-secondary {
-  border: 1px solid hsl(var(--clr-dark) / 0.2);
+  border: 2px solid hsl(var(--clr-dark) / 0.2);
   background-color: hsl(var(--clr-light));
   color: hsl(var(--clr-dark) / 0.8);
 }
 .btn-secondary:hover {
-  border: 1px solid hsl(var(--clr-accent));
+  border: 2px solid hsl(var(--clr-accent));
 }
