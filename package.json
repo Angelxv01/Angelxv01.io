@@ -1,10 +1,11 @@
 {
   "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "Sample portfolio app",
+  "description": "Angel's Portfolio",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwindcss -i ./src/css/index.css -o ./build/css/index.css",
+    "watch": "tailwindcss -i ./src/css/index.css -o ./build/css/index.css --watch"
   },
   "repository": "git+https://github.com/Angelxv01/portfolio-website.git",
   "author": "Angelxv01",
