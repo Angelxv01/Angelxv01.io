@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+      }
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg) translateX(150px) rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg) translateX(150px) rotate(-360deg);
+        }
+      }
+
+      .rotate {
+        animation: rotate 3s infinite linear;
+      }
+    </style>
+    <title>Jolly</title>
+  </head>
+  <body>
+    <div style="display: grid; place-items: center; height: 100vh">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="50"
+        height="50"
+        viewBox="0 0 24 24"
+        fill="gold"
+        class="rotate"
+      >
+        <path
+          d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"
+        />
+      </svg>
+    </div>
+  </body>
+</html>
